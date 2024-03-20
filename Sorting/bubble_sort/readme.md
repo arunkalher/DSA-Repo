@@ -37,7 +37,7 @@ void bubbleSort(vector<int>& arr, int n)
 
 ## It is stable and inplace.
 
-## Advantages ofBubble Sort
+## Advantages of Bubble Sort
 ### It is a stable sorting algorithm, meaning that elements with the same key value maintain their relative order in the sorted output.
 
 ### Disadvantages of Bubble Sort

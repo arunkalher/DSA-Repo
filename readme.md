@@ -7,6 +7,8 @@
 
 ## - [Graph](https://github.com/arunkalher/DSA-Repo/tree/main/Graph)
 
+## - [Sorting](https://github.com/arunkalher/DSA-Repo/tree/main/Sorting)
+
 
 ## Author
 ### Arun Kalher

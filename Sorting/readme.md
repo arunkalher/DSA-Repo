@@ -1,7 +1,7 @@
 
 
-## [Bubble Sort](https://github.com/arunkalher/DSA-Repo/tree/main/Graph/cycle_in_dir) 
-## [Selection Sort](https://github.com/arunkalher/DSA-Repo/tree/main/Graph/shortest_path_in_DAG)   
+## [Bubble Sort](https://github.com/arunkalher/DSA-Repo/tree/main/Sorting/bubble_sort) 
+## [Selection Sort](https://github.com/arunkalher/DSA-Repo/tree/main/Sorting/selection_sort)   
 
 
  
