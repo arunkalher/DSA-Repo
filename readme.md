@@ -1,7 +1,3 @@
-# Code Some Code
-
-
-#  Contents -
 
 ## -   [Array](https://github.com/arunkalher/DSA-Repo/tree/main/Array)
 
