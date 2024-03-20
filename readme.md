@@ -1,9 +1,9 @@
 
-## -   [Array](https://github.com/arunkalher/DSA-Repo/tree/main/Array)
+## [Array](https://github.com/arunkalher/DSA-Repo/tree/main/Array)
 
-## - [Graph](https://github.com/arunkalher/DSA-Repo/tree/main/Graph)
+## [Graph](https://github.com/arunkalher/DSA-Repo/tree/main/Graph)
 
-## - [Sorting](https://github.com/arunkalher/DSA-Repo/tree/main/Sorting)
+## [Sorting](https://github.com/arunkalher/DSA-Repo/tree/main/Sorting)
 
 
 ## Author
