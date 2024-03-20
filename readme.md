@@ -3,9 +3,9 @@
 
 #  Contents -
 
-## -   [Array](https://github.com/arunkalher/Code-some-Code/tree/main/DSA)
+## -   [Array](https://github.com/arunkalher/DSA-Repo/tree/main/Array)
 
-## - [Graph](https://github.com/arunkalher/Code-some-Code/tree/main/javascript)
+## - [Graph](https://github.com/arunkalher/DSA-Repo/tree/main/Graph)
 
 
 ## Author

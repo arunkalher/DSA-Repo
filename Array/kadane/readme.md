@@ -1,7 +1,7 @@
 
-# DSA - Episode 01 
+
 # Kadane's Algorithm
-#### 2 min read
+
 ## Statement- 
 ### Given an integer array nums, find the subarray (containing at least one number) with the largest sum, and return its sum.
 
