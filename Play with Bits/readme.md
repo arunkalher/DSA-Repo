@@ -10,7 +10,7 @@
 
 ## [Count set bits](https://github.com/arunkalher/DSA-Repo/tree/main/Play%20with%20Bits/count%20set%20bits)
 
-## [Min bitflips to convert](https://github.com/arunkalher/DSA-Repo/tree/main/Play%20with%20Bits/count%20set%20bits)
+## [Min bitflips to convert](https://github.com/arunkalher/DSA-Repo/tree/main/Play%20with%20Bits/min%20bitflips%20to%20convert%20number)
 
 ## [Power set](https://github.com/arunkalher/DSA-Repo/tree/main/Play%20with%20Bits/power%20set)
 

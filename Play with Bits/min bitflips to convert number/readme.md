@@ -1,4 +1,6 @@
+## Min bitflips to convert
 
+### idea is to take xor of both and then count set bits
 
 ```C++
 int countsetbits(int n)
