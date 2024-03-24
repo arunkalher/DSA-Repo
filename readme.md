@@ -3,7 +3,7 @@
 
 ## [Graph](https://github.com/arunkalher/DSA-Repo/tree/main/Graph)
 
-## [Sorting](https://github.com/arunkalher/DSA-Repo/tree/main/Play%20with%20Bits)
+## [Play with Bits](https://github.com/arunkalher/DSA-Repo/tree/main/Play%20with%20Bits)
 
 ## [Sorting](https://github.com/arunkalher/DSA-Repo/tree/main/Sorting)
 
