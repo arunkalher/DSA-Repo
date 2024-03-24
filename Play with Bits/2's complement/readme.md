@@ -1,9 +1,10 @@
 
 # Two's Complement
 
-### Two's complement is the most common method of representing signed (positive, negative, and zero) integers on computers,[1] and more generally, fixed point binary values. Two's complement uses the binary digit with the greatest place value as the sign to indicate whether the binary number is positive or negative. When the most significant bit is 1, the number is signed as negative; and when the most significant bit is 0 the number is signed as positive.
+### Two's complement is the most common method of representing signed (positive, negative, and zero) integers on computers,and more generally, fixed point binary values. 
+### Two's complement uses the binary digit with the greatest place value as the sign to indicate whether the binary number is positive or negative. When the most significant bit is 1, the number is signed as negative; and when the most significant bit is 0 the number is signed as positive.
 
-### Unlike the ones' complement scheme, the two's complement scheme has only one representation for zero. Furthermore, arithmetic implementations can be used on signed as well as unsigned integers[2] and differ only in the integer overflow situations.
+### Unlike the ones' complement scheme, the two's complement scheme has only one representation for zero. Furthermore, arithmetic implementations can be used on signed as well as unsigned integers and differ only in the integer overflow situations.
 
 ## Procedure
 ### The two's complement of an integer is computed by:
