@@ -1,5 +1,4 @@
 
-# Check kth bit set or not
 
 ```C++
 int countsetbits(int n)
