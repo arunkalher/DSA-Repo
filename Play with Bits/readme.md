@@ -10,6 +10,10 @@
 
 ## [Count set bits](https://github.com/arunkalher/DSA-Repo/tree/main/Play%20with%20Bits/count%20set%20bits)
 
+## [Min bitflips to convert](https://github.com/arunkalher/DSA-Repo/tree/main/Play%20with%20Bits/count%20set%20bits)
+
+## [Power set](https://github.com/arunkalher/DSA-Repo/tree/main/Play%20with%20Bits/count%20set%20bits)
+
 ## [Set kth bit](https://github.com/arunkalher/DSA-Repo/tree/main/Play%20with%20Bits/set%20kth%20bit)
 
 ## [Swap two numbers](https://github.com/arunkalher/DSA-Repo/tree/main/Play%20with%20Bits/Swap%20two%20numbers) 
