@@ -14,6 +14,6 @@
 
 ## [Toggle kth bit](https://github.com/arunkalher/DSA-Repo/tree/main/Play%20with%20Bits/toggle%20kth%20bit) 
 
-## [Unset kth bit](https://github.com/arunkalher/DSA-Repo/tree/main/Play%20with%20Bits/toggle%20kth%20bit) 
+## [Unset kth bit](https://github.com/arunkalher/DSA-Repo/tree/main/Play%20with%20Bits/Unset%20kth%20bit) 
 
  
