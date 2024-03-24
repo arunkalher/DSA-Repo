@@ -1,5 +1,5 @@
 
-# Check kth bit set or not
+# Check if power of 2
 
 ## Method 1
 ```C++
