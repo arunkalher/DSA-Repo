@@ -1,5 +1,5 @@
 
-# Unset kth bit
+# Toggle kth bit
 
 ```C++
 

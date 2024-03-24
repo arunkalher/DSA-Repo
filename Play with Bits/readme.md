@@ -4,7 +4,7 @@
 
 ## [2's Compliment](https://github.com/arunkalher/DSA-Repo/tree/main/Play%20with%20Bits/2's%20complement) 
 
-## [Check if power of 2](https://github.com/arunkalher/DSA-Repo/tree/main/Play%20with%20Bits) 
+## [Check if power of 2](https://github.com/arunkalher/DSA-Repo/tree/main/Play%20with%20Bits/check%20if%20power%20of%202) 
 
 ## [Check kth bit](https://github.com/arunkalher/DSA-Repo/tree/main/Play%20with%20Bits/Check%20kth%20bit) 
 
