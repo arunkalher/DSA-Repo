@@ -23,8 +23,7 @@ void quickSort(int arr[], int low, int high)
         quickSort(arr,p+1,high);
     }
     
-    public:
-    int partition (int arr[], int low, int high)
+int partition (int arr[], int low, int high)
     {
        int ans=low-1;
        while(low<high)
@@ -46,7 +45,7 @@ void quickSort(int arr[], int low, int high)
        
        return ans;
        
-    }
+}
 
 
 ```
