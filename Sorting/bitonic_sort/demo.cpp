@@ -2,46 +2,69 @@
 
 using namespace std;
 
-template <typename t>
-void Swap(t &a, t &b)
+void merge(int *arr, int start, int end, int mid)
 {
-
-    t temp = a;
-    a = b;
-    b = temp;
-}
-void merge(int *arr, int start, int N, int dir)
-{
-    if (N <= 1)
+    if (start >= end)
         return;
-    for (int i = start; i < start + N / 2; i++)
-    {
-        // dir is involved while swappping ,
-        // if left one is larger and we
-        // are working for increasing
-        // then condn will be 1 and swap will occur
+    int n1 = mid - start + 1;
+    int n2 = end - mid;
 
-        if (dir == (arr[i] > arr[i + N / 2]))
-            Swap(arr[i], arr[i + N / 2]);
+    int *temp1 = new int[n1];
+    int *temp2 = new int[n2];
+    for (int i = start; i <= mid; i++)
+        temp1[i - start] = arr[i];
+
+    for (int i = mid + 1; i <= end; i++)
+        temp2[i - mid - 1] = arr[i];
+
+    int leftArrayIndex = 0;
+    int rightArrayIndex = 0;
+    int currIndex = start;
+    while (leftArrayIndex < n1 && rightArrayIndex < n2)
+    {
+
+        if (temp1[leftArrayIndex] < temp2[rightArrayIndex])
+        {
+            arr[currIndex] = temp1[leftArrayIndex];
+            leftArrayIndex++;
+        }
+        else
+        {
+            arr[currIndex] = temp2[rightArrayIndex];
+            rightArrayIndex++;
+        }
+        currIndex++;
     }
 
-    merge(arr, start, N / 2, dir);
-    merge(arr, start + N / 2, N / 2, dir);
+    while (leftArrayIndex < n1)
+    {
+        arr[currIndex] = temp1[leftArrayIndex];
+        leftArrayIndex++;
+        currIndex++;
+    }
+
+    while (rightArrayIndex < n2)
+    {
+        arr[currIndex] = temp2[rightArrayIndex];
+        rightArrayIndex++;
+        currIndex++;
+    }
+    delete[] temp1;
+    delete[] temp2;
 }
-void bitonicSort(int *arr, int start, int N, int dir)
+void mergeSort(int *arr, int start, int end)
 {
-    if (N <= 1)
+    if (start >= end)
         return;
-    bitonicSort(arr, start, N / 2, 1);
-    bitonicSort(arr, start + N / 2, N / 2, 0);
-    merge(arr, start, N, dir);
+    int mid = start + (end - start) / 2;
+    mergeSort(arr, start, mid);
+    mergeSort(arr, mid + 1, end);
+    merge(arr, start, end, mid);
 }
 int32_t main()
 {
     int arr[] = {1, 3, 7, 5, 2, 4, 8, 6};
-    bitonicSort(arr, 0, sizeof(arr) / sizeof(arr[0]), 1);
-    // 1 for ascending
-
+    mergeSort(arr, 0, sizeof(arr) / sizeof(arr[0]) - 1);
     for (auto i : arr)
         cout << i;
     // 12345678
