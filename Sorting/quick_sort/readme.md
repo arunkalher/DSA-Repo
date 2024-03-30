@@ -13,9 +13,7 @@
 
 ![Alt text](image1.png)
 
-### Basic Idea is to pick last element and place it such that all elements 
-### to left are smaller and all right are equal or larger
-### then perform same step to left and right of placed element.
+### Basic Idea is to pick last element and place it such that all elements to left are smaller and all right are equal or larger then perform same step to left and right of placed element.
 
 
 ```C++
@@ -61,24 +59,13 @@ int partition (int arr[], int low, int high)
 
 ### Time Complexity-
 #### Best Case: Ω (N log (N))
-#### The best-case scenario for quicksort occur 
-#### when the pivot chosen at the each step divides
-#### the array into roughly equal halves.
-#### In this case, the algorithm will
-#### make balanced partitions, leading to efficient Sorting.
+#### The best-case scenario for quicksort occur  when the pivot chosen at the each step divides the array into roughly equal halves. In this case, the algorithm will make balanced partitions, leading to efficient Sorting.
 
 #### Average Case: θ ( N log (N))
 #### Quicksort’s average-case performance is usually very good in #### practice, making it one of the fastest sorting Algorithm.
 
 #### Worst Case: O(N2)
-#### The worst-case Scenario for Quicksort occur when the 
-#### pivot at each step consistently results in highly unbalanced partitions. 
-####  When the array is already sorted and the pivot is always chosen as the smallest
-####   or largest element. To mitigate the worst-case Scenario, various 
-####   techniques are used such as choosing a good pivot 
-####   (e.g., median of three) and using Randomized 
-####   algorithm (Randomized Quicksort ) to shuffle
-####    the element before sorting.
+#### The worst-case Scenario for Quicksort occur when the pivot at each step consistently results in highly unbalanced partitions. When the array is already sorted and the pivot is always chosen as the smallest or largest element. To mitigate the worst-case Scenario, various   techniques are used such as choosing a good pivot  (e.g., median of three) and using Randomized  lgorithm (Randomized Quicksort ) to shuffle  the element before sorting.
 
 
 ### Space - O(N) - worst case stack space

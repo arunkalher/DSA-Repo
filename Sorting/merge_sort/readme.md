@@ -1,14 +1,7 @@
 # Merge Sort
 
-#### Merge sort is defined as a sorting algorithm that
-####  works by dividing an array into smaller subarrays, 
-####  sorting each subarray, and then merging the sorted 
-####  subarrays back together to form the final sorted array.
-#### 
-#### In simple terms, we can say that the process of merge 
-#### sort is to divide the array into two halves, sort each half,
-####  and then merge the sorted halves back together.
-####   This process is repeated until the entire array is sorted.
+#### Merge sort is defined as a sorting algorithm that  works by dividing an array into smaller subarrays, sorting each subarray, and then merging the sorted subarrays back together to form the final sorted array.
+#### In simple terms, we can say that the process of merge sort is to divide the array into two halves, sort each half, and then merge the sorted halves back together. This process is repeated until the entire array is sorted.
 
 ![Alt text](image1.png)
 
@@ -95,23 +88,10 @@ int32_t main()
 ### + log(N) for stack
 
 #### Advantages of Merge Sort:
-#### Stability: Merge sort is a stable sorting algorithm,
-####  which means it maintains the relative order of equal
-####   elements in the input array.
-#### Guaranteed worst-case performance: Merge sort has a
-####  worst-case time complexity of O(N logN), which means
-####   it performs well even on large datasets.
-#### Parallelizable: Merge sort is a naturally parallelizable
-####  algorithm, which means it can be easily parallelized to 
-####  take advantage of multiple processors or threads.
+#### Stability: Merge sort is a stable sorting algorithm, which means it maintains the relative order of equal elements in the input array.
+#### Guaranteed worst-case performance: Merge sort has a worst-case time complexity of O(N logN), which means  it performs well even on large datasets.
+#### Parallelizable: Merge sort is a naturally parallelizable algorithm, which means it can be easily parallelized to take advantage of multiple processors or threads.
 #### Drawbacks of Merge Sort:
-#### Space complexity: Merge sort requires additional memory to
-####  store the merged sub-arrays during the sorting process. 
-#### Not in-place: Merge sort is not an in-place sorting algorithm,
-####  which means it requires additional memory to store the sorted 
-####  data. This can be a disadvantage in applications where memory 
-####  usage is a concern.
-#### Not always optimal for small datasets: For small datasets, Merge
-####  sort has a higher time complexity than some other sorting algorithms,
-####   such as insertion sort. This can result in slower performance 
-####   for very small datasets.
+#### Space complexity: Merge sort requires additional memory to store the merged sub-arrays during the sorting process. 
+#### Not in-place: Merge sort is not an in-place sorting algorithm, which means it requires additional memory to store the sorted data. This can be a disadvantage in applications where memory usage is a concern.
+#### Not always optimal for small datasets: For small datasets, Merge  sort has a higher time complexity than some other sorting algorithms, such as insertion sort. This can result in slower performance  for very small datasets.

@@ -9,9 +9,7 @@
 ![Alt text](image4.png)
 ![Alt text](image5.png)
 
-### Basic idea is select samllest element in each iteration and place it in 
-### start-i position, i represents elements which already have been placed to its 
-### correct positon.
+### Basic idea is select samllest element in each iteration and place it in start-i position, i represents elements which already have been placed to its correct positon.
 
 ```C++
 
