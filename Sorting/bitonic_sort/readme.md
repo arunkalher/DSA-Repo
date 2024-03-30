@@ -1,5 +1,5 @@
 # Bitonic Sort
-### Bitonic Sort is a classic parallel algorithm for sorting. 
+#### Bitonic Sort is a classic parallel algorithm for sorting. 
 
 #### The number of comparisons done by Bitonic sort is more than popular sorting algorithms like Merge Sort [ does O(log N) comparisons], but Bitonic sort is better for parallel implementation because we always compare elements in a predefined sequence and the sequence of comparison doesn’t depend on data. Therefore it is suitable for implementation in hardware and parallel processor array. Bitonic Sort can only be done if the number of elements to sort is 2^n. The procedure of bitonic sequence fails if the number of elements is not in the aforementioned quantity precisely.
 
@@ -10,9 +10,9 @@
 
 ![Alt text](image1.png)
 
-### Basic idea is like merge sort, first sort left and right partitions then merge them, merge will be called recursively by itself until merged array is completely sorted.
+#### Basic idea is like merge sort, first sort left and right partitions then merge them, merge will be called recursively by itself until merged array is completely sorted.
 
-### here we are using only one processor and one thread.
+#### here we are using only one processor and one thread.
 ```C++
 #include <iostream>
 
@@ -67,10 +67,10 @@ int32_t main()
 ```
 
 
-### Time complexity: ( parallel )
+## Time complexity: ( parallel )
 ### Best Case: O(log^2n)
 ### Average Case: O(log^2n)
 ### Worst Case: O(log^2n)
-### nlog^2n in no parallel
-### Space Complexity: O(nlog^2n)
+#### nlog^2n without parallel
+## Space Complexity: O(nlog^2n)
 
