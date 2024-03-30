@@ -2,7 +2,7 @@
 
 #### Heap sort is a comparison-based sorting technique based on Binary Heap data structure.
 
-![Alt text](image1.png)
+
 
 
 #### First heapify array, according to order which you want either max-heap ( if increasing order required ) or vice versa, then take first element and put last element in its place and heapify from root to bottom ( ignored sorted last elments(s) ). Repeat the step until array is sorted.
@@ -59,15 +59,24 @@ int32_t main()
 }
 
 ```
+## Complexity Analysis of Heap Sort
+## Time Complexity: O(N log N)
+## Auxiliary Space: O(log n), due to the recursive call stack. However, auxiliary space can be O(1) for iterative implementation.
 
 ## Important points about Heap Sort:
 #### Heap sort is an in-place algorithm. 
 
 ## Advantages of Heap Sort:
-### Efficient Time Complexity: Heap Sort has a time complexity of O(n log n) in all cases. This makes it efficient for sorting large datasets. The log n factor comes from the height of the binary heap, and it ensures that the algorithm maintains good performance even with a large number of elements.
-### Memory Usage – Memory usage can be minimal (by writing an iterative heapify() instead of a recursive one). So apart from what is necessary to hold the initial list of items to be sorted, it needs no additional memory space to work
-### Simplicity –  It is simpler to understand than other equally efficient sorting algorithms because it does not use advanced computer science concepts such as recursion.
+### Efficient Time Complexity: 
+#### Heap Sort has a time complexity of O(n log n) in all cases. This makes it efficient for sorting large datasets. The log n factor comes from the height of the binary heap, and it ensures that the algorithm maintains good performance even with a large number of elements.
+### Memory Usage –
+#### Memory usage can be minimal (by writing an iterative heapify() instead of a recursive one). 
+### Simplicity –  
+####It is simpler to understand than other equally efficient sorting algorithms because it does not use advanced computer science concepts such as recursion.
 ## Disadvantages of Heap Sort:
-### Costly: Heap sort is costly as the constants are higher compared to merge sort even if the time complexity is O(n Log n) for both.
-### Unstable: Heap sort is unstable. It might rearrange the relative order.
-### Efficient: Heap Sort is not very efficient when working with highly complex data. 
+### Costly:
+#### Heap sort is costly as the constants are higher compared to merge sort even if the time complexity is O(n Log n) for both.
+### Unstable:
+#### Heap sort is unstable. It might rearrange the relative order.
+### Efficient: 
+#### Heap Sort is not very efficient when working with highly complex data. 
