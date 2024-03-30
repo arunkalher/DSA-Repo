@@ -3,6 +3,12 @@
 
 ## Selection sort is a simple and efficient sorting algorithm that works by repeatedly selecting the smallest (or largest) element from the unsorted portion of the list and moving it to the sorted portion of the list. 
 
+![Alt text](image1.png)
+![Alt text](image2.png)
+![Alt text](image3.png)
+![Alt text](image4.png)
+![Alt text](image5.png)
+
 ### Basic idea is select samllest element in each iteration and place it in 
 ### start-i position, i represents elements which already have been placed to its 
 ### correct positon.

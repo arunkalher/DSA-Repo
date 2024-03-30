@@ -21,6 +21,8 @@
 #### and  
 #### xi >= xi+1….. >= xn-1 
 
+![Alt text](image1.png)
+
 ### Basic idea is like merge sort,
 ### first sort left and right partitions
 ### then merge them, merge will be called recursively by itself
