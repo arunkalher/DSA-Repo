@@ -90,8 +90,9 @@ int32_t main()
 ####  time complexity can be expressed as following recurrence relation. 
 #### T(n) = 2T(n/2) + θ(n)
 
-#### Auxiliary Space: O(N), In merge sort all elements are copied 
+#### Auxiliary Space: O(N)+ logN, In merge sort all elements are copied 
 #### into an auxiliary array. So N auxiliary space is required for merge sort.
+### + log(N) for stack
 
 #### Advantages of Merge Sort:
 #### Stability: Merge sort is a stable sorting algorithm,
