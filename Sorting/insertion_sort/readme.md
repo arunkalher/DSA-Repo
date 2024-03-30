@@ -65,5 +65,4 @@ int32_t main()
 #### Characteristics of Insertion Sort
 #### This algorithm is one of the simplest algorithms with a simple implementation
 #### Basically, Insertion sort is efficient for small data values
-#### Insertion sort is adaptive in nature, i.e. it is 
-### appropriate for data sets that are already partially sorted
+#### Insertion sort is adaptive in nature, i.e. it is  appropriate for data sets that are already partially sorted
