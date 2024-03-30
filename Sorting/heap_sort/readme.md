@@ -76,8 +76,6 @@ int32_t main()
 ### Simplicity –  
 #### It is simpler to understand than other equally efficient sorting algorithms because it does not use advanced computer science concepts such as recursion.
 ## Disadvantages of Heap Sort:
-### Costly:
-#### Heap sort is costly as the constants are higher compared to merge sort even if the time complexity is O(n Log n) for both.
 ### Unstable:
 #### Heap sort is unstable. It might rearrange the relative order.
 ### Efficient: 
