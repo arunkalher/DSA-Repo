@@ -11,6 +11,8 @@
 
 ### let's pick last element 
 
+![Alt text](image1.png)
+
 ### Basic Idea is to pick last element and place it such that all elements 
 ### to left are smaller and all right are equal or larger
 ### then perform same step to left and right of placed element.
