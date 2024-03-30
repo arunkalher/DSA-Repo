@@ -3,6 +3,10 @@
 
 ## Bubble Sort is a sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order. This algorithm is not suitable for large data sets as its average and worst-case time complexity is quite high.
 
+
+![Alt text](image1.png)
+
+
 ### Basic idea is to itearte over array 
 ### and in each iteration swapping adjacent elements if right one is smaller
 ### this way , in one iteration largest element will be in then end.
