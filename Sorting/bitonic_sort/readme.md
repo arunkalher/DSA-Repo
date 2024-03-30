@@ -23,7 +23,7 @@
 
 ### Basic idea is like merge sort,
 ### first sort left and right partitions
-### then merge them, merge will be called recursively by itself.
+### then merge them, merge will be called recursively by itself
 ### until merged array is completely sorted.
 
 ### here we are using only one processor and one thread.
@@ -82,8 +82,9 @@ int32_t main()
 
 
 ### Time complexity: ( parallel )
-### Best Case: O(log2n)
-### Average Case: O(log2n)
-### Worst Case: O(log2n)
-### Space Complexity: O(n.log2n)
+### Best Case: O(log^2n)
+### Average Case: O(log^2n)
+### Worst Case: O(log^2n)
+### nlog^2n in no parallel
+### Space Complexity: O(nlog^2n)
 
