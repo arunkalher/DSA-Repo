@@ -84,7 +84,7 @@ int32_t main()
         cout << i;
     // 12345678
 }
-
+```
 ### Time Complexity: O(N log(N)), 
 ####  Merge Sort is a recursive algorithm and
 ####  time complexity can be expressed as following recurrence relation. 
@@ -114,4 +114,3 @@ int32_t main()
 ####  sort has a higher time complexity than some other sorting algorithms,
 ####   such as insertion sort. This can result in slower performance 
 ####   for very small datasets.
-```
