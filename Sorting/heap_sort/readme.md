@@ -7,6 +7,8 @@
 
 #### First heapify array, according to order which you want either max-heap ( if increasing order required ) or vice versa, then take first element and put last element in its place and heapify from root to bottom ( ignored sorted last elments(s) ). Repeat the step until array is sorted.
 
+![Alt text](image1.jpg)
+![Alt text](image2.jpg)
 
 ```C++
 #include <iostream>
@@ -49,7 +51,7 @@ void heapSort(int* arr,int N)
 }
 int32_t main()
 {
-    int arr[] = {5,7,4,8,1,5,2,9 };
+    int arr[] = {5,7,4,8,1,5,2,9};
     int N=sizeof(arr)/sizeof(arr[0]);
     // after heapify 
     heapSort(arr,N);
@@ -72,7 +74,7 @@ int32_t main()
 ### Memory Usage –
 #### Memory usage can be minimal (by writing an iterative heapify() instead of a recursive one). 
 ### Simplicity –  
-####It is simpler to understand than other equally efficient sorting algorithms because it does not use advanced computer science concepts such as recursion.
+#### It is simpler to understand than other equally efficient sorting algorithms because it does not use advanced computer science concepts such as recursion.
 ## Disadvantages of Heap Sort:
 ### Costly:
 #### Heap sort is costly as the constants are higher compared to merge sort even if the time complexity is O(n Log n) for both.
