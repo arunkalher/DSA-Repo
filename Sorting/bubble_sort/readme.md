@@ -5,7 +5,7 @@
 
 ### Basic idea is to itearte over array 
 ### and in each iteration swapping adjacent elements if right one is smaller
-### this way , in one iteration largest elemnt will be in then end.
+### this way , in one iteration largest element will be in then end.
 ### Similarly, in each iteration, next largest element will go to end-i
 ### i represets elements which already been placded to right
 
