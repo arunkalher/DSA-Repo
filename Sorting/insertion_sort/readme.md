@@ -1,17 +1,10 @@
 # Insertion Sort
-### Insertion sort is a sorting algorithm that places an 
-### unsorted element at its suitable place in each iteration.
+### Insertion sort is a sorting algorithm that places an unsorted element at its suitable place in each iteration.
 
 ![Alt text](image1.png)
 
 
-### Basic idea is to iterate over array , pick up 
-### an element , if prev ele is >= prev
-###  then just continue otherwise just find ele < curr 
-###  from left array ( index 0 to curr-1) and place curr 
-###  in its correct position and shift right one place
-### elements starting from curr element's 
-### correct position to  its prevous position.
+### Basic idea is to iterate over array , pick up  an element , if prev ele is >= prev  then just continue otherwise just find ele < curr   from left array ( index 0 to curr-1) and place curr   in its correct position and shift right one place elements starting from curr element's  correct position to  its prevous position.
 ```C++
 
 #include <iostream>
