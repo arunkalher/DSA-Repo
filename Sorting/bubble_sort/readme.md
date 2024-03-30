@@ -5,6 +5,9 @@
 
 
 ![Alt text](image1.png)
+![Alt text](image2.png)
+![Alt text](image3.png)
+
 
 
 ### Basic idea is to itearte over array 
@@ -13,7 +16,12 @@
 ### Similarly, in each iteration, next largest element will go to end-i
 ### i represets elements which already been placded to right
 
+### If in any iteration, we find out
+### there are no swaps then we can stop iterations as
+### array is sorted now.
+
 ```C++
+
 
 void swap(int &i,int &j)
 {
