@@ -11,6 +11,11 @@
 
 ### let's pick last element 
 
+### Basic Idea is to pick last element and place it such that all elements 
+### to left are smaller and all right are equal or larger
+### then perform same step to left and right of placed element.
+
+
 ```C++
 void quickSort(int arr[], int low, int high)
     {

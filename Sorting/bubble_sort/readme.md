@@ -2,6 +2,13 @@
 # Bubble Sort 
 
 ## Bubble Sort is a sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order. This algorithm is not suitable for large data sets as its average and worst-case time complexity is quite high.
+
+### Basic idea is to itearte over array 
+### and in each iteration swapping adjacent elements if right one is smaller
+### this way , in one iteration largest elemnt will be in then end.
+### Similarly, in each iteration, next largest element will go to end-i
+### i represets elements which already been placded to right
+
 ```C++
 
 void swap(int &i,int &j)
