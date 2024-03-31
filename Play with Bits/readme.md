@@ -20,7 +20,7 @@
 
 ## [Toggle kth bit](https://github.com/arunkalher/DSA-Repo/tree/main/Play%20with%20Bits/toggle%20kth%20bit) 
 
-## [Unique Number](https://github.com/arunkalher/DSA-Repo/tree/main/Play%20with%20Bits/unique_number) 
+## [Unique Number](https://github.com/arunkalher/DSA-Repo/tree/main/Play%20with%20Bits/unique_no) 
 
 ## [Unset kth bit](https://github.com/arunkalher/DSA-Repo/tree/main/Play%20with%20Bits/Unset%20kth%20bit) 
 
