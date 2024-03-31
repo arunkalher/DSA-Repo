@@ -82,6 +82,39 @@ int32_t main()
 ## Time - O(N X 8 X sizeof(int))
 ## Space - O(1)
 
+### Method - Using sort
+
+```C++
+#include <iostream>
+using namespace std;
+#include<algorithm>
+
+int unique(int* arr,int N,int k)
+{   
+    sort(arr,arr+N);
+   
+    for(int i=1;i<N;i=i+k)
+    {
+        if(arr[i]!=arr[i-1])
+        return arr[i-1];
+       
+    }
+    return -1;
+}
+
+
+int32_t main()
+{
+     int arr[] = {2,2,3,3,2,3,6,6,6,7,8,8,8};
+    int N=sizeof(arr)/sizeof(arr[0]);
+   
+    cout<<unique(arr,N,3);
+   
+}
+```
+## Time - O(NlogN)
+## Space - O(1)
+
 #### If k is even , then we can use xor operator
 
 ```C++
