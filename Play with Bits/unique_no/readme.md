@@ -39,7 +39,7 @@ int32_t main()
 
 ## Method - 2
 
-```C+++
+```C++
 #include <iostream>
 #include<unordered_map>
 using namespace std;
@@ -79,12 +79,12 @@ int32_t main()
 ```
 
 
-## Time - O(N*8*sizeof(int))
+## Time - O(N X 8 X sizeof(int))
 ## Space - O(1)
 
 #### If k is even , then we can use xor operator
 
-```C+++
+```C++
 #include <iostream>
 #include<unordered_map>
 using namespace std;
