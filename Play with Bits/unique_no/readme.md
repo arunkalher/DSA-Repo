@@ -41,7 +41,7 @@ int32_t main()
 
 ```C++
 #include <iostream>
-#include<unordered_map>
+
 using namespace std;
 int unique(int* arr,int N,int k)
 {
@@ -86,7 +86,7 @@ int32_t main()
 
 ```C++
 #include <iostream>
-#include<unordered_map>
+
 using namespace std;
 int unique(int* arr,int N)
 {   
