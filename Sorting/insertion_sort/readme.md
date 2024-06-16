@@ -18,25 +18,25 @@ void insertionSort(int* arr,int N)
     {   
         if(arr[i]>=arr[i-1])
         continue;
-        int index=-1;
-        for(int j=0;j<i;j++)
+        int curr=arr[i];
+        int j=i-1;
+        while(j>=0)
         {
-            if (arr[j]>arr[i])
+            if (arr[j]>curr)
             {
-                index=j;
+               arr[j+1]=arr[j];
+               j--;
+            }
+            else{
                 break;
             }
+            
         }
-        if(index!=-1)
-        {   
-            int temp=arr[i];
-            for(int j=i;j>index;j--)
-            {
-                arr[j]=arr[j-1];
-            }
-            arr[index]=temp;
-        }
+        arr[++j]=curr;
+
+        
     }
+
 
 }
 int32_t main()
