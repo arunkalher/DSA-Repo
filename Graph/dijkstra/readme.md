@@ -1,4 +1,4 @@
-### Given a weighted graph and a source vertex in the graph, find the shortest paths from the source to all the other vertices in the given graph.
+### Given a weighted graph and a source vertex in the graph, find the shortest paths from the source to all the other vertices in the given graph ( without negative weight)
 
 ```C++
 
@@ -106,5 +106,7 @@ int main()
 
 ```
 
-## TC: E+Vlog(E)
+## TC: V+E*log(V)
 ## SC: N-visited,N-distance,N-prev Vertex,N- answer
+
+## D-ary heap? , fibonacci heap?

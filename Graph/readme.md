@@ -1,4 +1,5 @@
 
+## [Bellman Ford](https://github.com/arunkalher/DSA-Repo/tree/main/Graph/bellman-ford) 
 ## [BFS](https://github.com/arunkalher/DSA-Repo/tree/main/Graph/bfs) 
 ## [Detect cycle in a directed graph](https://github.com/arunkalher/DSA-Repo/tree/main/Graph/cycle_in_dir) 
 ## [DFS](https://github.com/arunkalher/DSA-Repo/tree/main/Graph/dfs) 
