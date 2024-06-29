@@ -14,6 +14,8 @@ void BFS(Vector* graph,int Vertices, bool* visited,int CurrVertex,int componentN
     {
         int frontVertex=q.front();
         q.pop();
+        if(visited[frontVertex])
+        continue;
         visited[frontVertex]=true;
         components[frontVertex]=componentNo;
         std::cout<<frontVertex<<" ";

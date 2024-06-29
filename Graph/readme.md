@@ -1,6 +1,7 @@
 
 ## [Bellman Ford](https://github.com/arunkalher/DSA-Repo/tree/main/Graph/bellman-ford) 
 ## [BFS](https://github.com/arunkalher/DSA-Repo/tree/main/Graph/bfs) 
+## [Bridge](https://github.com/arunkalher/DSA-Repo/tree/main/Graph/bridges_in_graph) 
 ## [Detect cycle in a directed graph](https://github.com/arunkalher/DSA-Repo/tree/main/Graph/cycle_in_dir) 
 ## [DFS](https://github.com/arunkalher/DSA-Repo/tree/main/Graph/dfs) 
 ## [Dijkstra](https://github.com/arunkalher/DSA-Repo/tree/main/Graph/dijkstra) 
