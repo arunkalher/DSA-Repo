@@ -52,3 +52,6 @@ class QuickUnion{
     }
 
 };
+
+//  Robert Tarjan was the first to prove the 𝑂(𝑚𝛼(𝑛)){\displaystyle O(m\alpha (n))} 
+//(inverse Ackermann function) upper bound on the algorithm's time complexity
