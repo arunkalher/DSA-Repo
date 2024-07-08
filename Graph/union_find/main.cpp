@@ -2,10 +2,10 @@
 #include<vector>
 #include<queue>
 #include<utility>
-#include"quickfind.h"
+#include"quickunion.h"
 int main(int N,char* s[])
 {   
-    quickFind Forest(10);
+    QuickUnion Forest(10);
     Forest.union_(0,5);
     Forest.union_(6,5);
     Forest.union_(6,1);
