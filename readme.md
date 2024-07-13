@@ -7,6 +7,8 @@
 
 ## [Sorting](https://github.com/arunkalher/DSA-Repo/tree/main/Sorting)
 
+## [Stacks](https://github.com/arunkalher/DSA-Repo/tree/main/Stacks)
+
 
 ## Author
 ### Arun Kalher
