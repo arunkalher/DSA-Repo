@@ -10,4 +10,4 @@
 
 ## [Kadane's Algorithm](https://github.com/arunkalher/DSA-Repo/tree/main/Array/kadane) 
 
-## [Rotate an array by one](https://github.com/arunkalher/DSA-Repo/tree/main/Array/kadane)
+## [Rotate an array by one](https://github.com/arunkalher/DSA-Repo/tree/main/Array/Rotate%20an%20array%20by%20one)
