@@ -1,77 +1,50 @@
 #include<iostream>
 #include<vector>
-#include<queue>
-typedef std::vector<int> Vector;
-void BFS(Vector* graph,int Vertices, bool* visited,int CurrVertex,int componentNo,int* components)
-{   
+#include<unordered_map>
+using namespace std;
+typedef vector<int> Vector;
 
-    if(visited[CurrVertex])
-    return;
-    std::queue<int> q;
-    q.push(CurrVertex);
-    
-    while(!q.empty())
-    {
-        int frontVertex=q.front();
-        q.pop();
-        if(visited[frontVertex])
-        continue;
-        visited[frontVertex]=true;
-        components[frontVertex]=componentNo;
-        std::cout<<frontVertex<<" ";
-        for(auto neighbourVertex:graph[frontVertex])
-        {
-            if(!visited[neighbourVertex])
-            q.push(neighbourVertex);
-        }
-    }
+
+Vector Common(int* A,int* B,int* C,int n1,int n2,int n3)
+{
+    Vector ans;
+   unordered_map<int,int> m;
+   for(int i=0;i<n1;i++)
+   m[A[i]]=1;
+   for(int i=0;i<n2;i++)
+   {
+    if(m.find(B[i])!=m.end() && m[B[i]]==1)
+    m[B[i]]=2;
+   
+   }
+   for(int i=0;i<n3;i++)
+   {
+    if(m.find(C[i])!=m.end() && m[C[i]]==2)
+    m[C[i]]=3;
+   }
+  
+   for(int i=0;i<n1;i++)
+   if(m[A[i]]==3)
+   {
+    ans.push_back(A[i]);
+    m[A[i]]=-1;
+   }
+   
+return ans;
+
 }
 int main()
 {   
-    int startVertex=1;
-    int Nodes=10;
-    int Vertices=Nodes+1;
-    int noOfComponents=0;
-
-    // intialise with component no zero
-    int Components[Vertices]={0};
-    Vector graph[Vertices];
-
-    int componentNo=0;
-    // first component
-    // 7 nodes
-    graph[1].push_back(8);
-    graph[1].push_back(5);
-    graph[8].push_back(3);
-    graph[3].push_back(4);
-    graph[5].push_back(6);
-    graph[6].push_back(7);
 
 
-    // second component
-    // 3 nodes
-    graph[2].push_back(9);
-    graph[9].push_back(10);
+//    int arr[8]={1,3,4,5,-4,-4,-6,-8};
+//    Vector ans=alternateEqualPosAndNeg(arr,8);
 
-    bool visited[Vertices]={false};
-    for(int vertex=startVertex;vertex<=Nodes;vertex++)
-    {   
-        
-        if(!visited[vertex])
-        {   
-            componentNo+=1;
-            BFS(graph,Vertices,visited,vertex,componentNo,Components);
-        }
-        
-    }
-    noOfComponents=componentNo;
-
-    std::cout<<"\nComponents: ";
-    for(auto ele:Components)
-    {
-        std::cout<<ele;
-    }
-
-   
+   int A[6]={1,5 ,10 ,20, 40, 80};
+   int B[5]={6, 7 ,20, 80, 100};
+   int C[8]={3 ,4 ,15 ,20 ,30 ,70 ,80 ,120};
+   Vector common=Common(A,B,C,6,5,8);
+   for(auto j:common)
+   cout<<j<<" ";
 }
 
