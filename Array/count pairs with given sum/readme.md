@@ -16,7 +16,7 @@ int getPairsCount(int* arr,int n, int sum)
             pairs+=1;
             if(start+1<n && arr[start+1]==arr[start])
             start++;
-            else if(end-1>0 && arr[end-1]==arr[end])
+            else if(end-1>=0 && arr[end-1]==arr[end])
             end--;
             else{
                 start++;
