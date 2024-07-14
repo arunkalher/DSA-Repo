@@ -93,6 +93,8 @@ int main()
    Vector common=Common2(A,B,C,6,5,8);
    for(auto j:common)
    cout<<j<<" ";
+
+   // N1+N2+N3
 }
 
 
