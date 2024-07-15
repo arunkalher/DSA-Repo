@@ -1,5 +1,7 @@
 ## [count pairs with given sum](https://github.com/arunkalher/DSA-Repo/tree/main/Array/count%20pairs%20with%20given%20sum)
 
+## [Count subarrays with equal number of 1’s and 0’s](https://github.com/arunkalher/DSA-Repo/tree/main/Array/Count%20subarrays%20with%20equal%20number%20of%201%E2%80%99s%20and%200%E2%80%99s)
+
 ## [Factorial of a Big Number](https://github.com/arunkalher/DSA-Repo/tree/main/Array/Factorial%20of%20a%20Big%20Number)
 
 ## [Find common elements in three sorted arrays](https://github.com/arunkalher/DSA-Repo/tree/main/Array/Find%20common%20elements%20in%20three%20sorted%20arrays)
@@ -19,6 +21,8 @@
 ## [Rearrange array in alternating positive & negative items in O(1) space](https://github.com/arunkalher/DSA-Repo/tree/main/Array/Rearrange%20array%20in%20alternating%20positive%20%26%20negative%20items%20in%20O(1)%20space)
 
 ## [Rotate an array by one](https://github.com/arunkalher/DSA-Repo/tree/main/Array/Rotate%20an%20array%20by%20one)
+
+## [Subarray with max product](https://github.com/arunkalher/DSA-Repo/tree/main/Array/Subarray%20with%20max%20product)
 
 ## [Subarray with zero sum](https://github.com/arunkalher/DSA-Repo/tree/main/Array/Subarray%20with%20zero%20sum)
 
