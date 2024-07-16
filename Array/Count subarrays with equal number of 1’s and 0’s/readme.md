@@ -20,4 +20,22 @@ long long int countSubarrWithEqualZeroAndOne(int arr[], int n)
         
     }
 
+
+ long long int countSubarrWithEqualZeroAndOne(int arr[], int n)
+    {
+        ll ans=0;
+        unordered_map<int,int> m;
+        int sum=0;
+        for(int i=0;i<n;i++)
+        {
+            sum+=arr[i]==1?arr[i]:-1;
+            if(sum==0) ans++;
+            ans+=m[sum];
+            m[sum]++;
+        }
+        
+       
+        return ans;
+        
+    }
 ```
