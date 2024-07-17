@@ -36,4 +36,4 @@
 
 ## [Subarray with zero sum](https://github.com/arunkalher/DSA-Repo/tree/main/Array/Subarray%20with%20zero%20sum)
 
-## [The Stock Span Problem]()
+## [The Stock Span Problem](https://github.com/arunkalher/DSA-Repo/tree/main/Array/The%20Stock%20Span%20Problem)
