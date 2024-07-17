@@ -12,6 +12,8 @@
 
 ## [Find the Missing Number]( https://github.com/arunkalher/DSA-Repo/tree/main/Array/find%20the%20Missing%20Number) 
 
+## [Find the smallest positive number missing from an unsorted array]()
+
 ## [First non-repeating element in a given Array of integers](https://github.com/arunkalher/DSA-Repo/tree/main/Array/first%20non-repeating%20element%20in%20a%20given%20Array%20of%20integers) 
 
 ## [first repeating element in an array of integers](https://github.com/arunkalher/DSA-Repo/tree/main/Array/first%20repeating%20element%20in%20an%20array%20of%20integers) 
