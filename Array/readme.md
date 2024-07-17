@@ -24,7 +24,7 @@
 
 ## [Maximum sum of iXarr[i] among all rotations of a given array](https://github.com/arunkalher/DSA-Repo/tree/main/Array/Maximum%20sum%20of%20iXarr%5Bi%5D%20among%20all%20rotations%20of%20a%20given%20array)
 
-## [Minimum number of jumps to reach end](https://github.com/arunkalher/DSA-Repo/tree/main/Array/Rearrange%20array%20in%20alternating%20positive%20%26%20negative%20items)
+## [Minimum number of jumps to reach end](https://github.com/arunkalher/DSA-Repo/tree/main/Array/Minimum%20number%20of%20jumps%20to%20reach%20end)
 
 ## [Rearrange array in alternating positive & negative items](https://github.com/arunkalher/DSA-Repo/tree/main/Array/Rearrange%20array%20in%20alternating%20positive%20%26%20negative%20items)
 
