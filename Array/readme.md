@@ -1,3 +1,5 @@
+## [Array Subset of another array](https://github.com/arunkalher/DSA-Repo/tree/main/Array/Array%20Subset%20of%20another%20array)
+
 ## [count pairs with given sum](https://github.com/arunkalher/DSA-Repo/tree/main/Array/count%20pairs%20with%20given%20sum)
 
 ## [Count subarrays with equal number of 1’s and 0’s](https://github.com/arunkalher/DSA-Repo/tree/main/Array/Count%20subarrays%20with%20equal%20number%20of%201%E2%80%99s%20and%200%E2%80%99s)
@@ -18,11 +20,15 @@
 
 ## [first repeating element in an array of integers](https://github.com/arunkalher/DSA-Repo/tree/main/Array/first%20repeating%20element%20in%20an%20array%20of%20integers) 
 
+## [Implement two stacks in an array](https://github.com/arunkalher/DSA-Repo/tree/main/Array/Implement%20two%20stacks%20in%20an%20array)
+
 ## [Kadane's Algorithm](https://github.com/arunkalher/DSA-Repo/tree/main/Array/kadane) 
 
 ## [Largest subarray of 0's and 1's](https://github.com/arunkalher/DSA-Repo/tree/main/Array/Largest%20subarray%20of%200's%20and%201's) 
 
 ## [Longest Consecutive Subsequence in any order](https://github.com/arunkalher/DSA-Repo/tree/main/Array/Longest%20Consecutive%20Subsequence%20in%20any%20order)
+
+## [Majority Element n by 2](https://github.com/arunkalher/DSA-Repo/tree/main/Array/Majority%20Element%20n%20by%202)
 
 ## [Maximum sum of iXarr[i] among all rotations of a given array](https://github.com/arunkalher/DSA-Repo/tree/main/Array/Maximum%20sum%20of%20iXarr%5Bi%5D%20among%20all%20rotations%20of%20a%20given%20array)
 
@@ -34,8 +40,18 @@
 
 ## [Rotate an array by one](https://github.com/arunkalher/DSA-Repo/tree/main/Array/Rotate%20an%20array%20by%20one)
 
+## [Row with max 1s](https://github.com/arunkalher/DSA-Repo/tree/main/Array/Row%20with%20max%201s)
+
+## [Spirally traversing a matrix](https://github.com/arunkalher/DSA-Repo/tree/main/Array/Spirally%20traversing%20a%20matrix)
+
 ## [Subarray with max product](https://github.com/arunkalher/DSA-Repo/tree/main/Array/Subarray%20with%20max%20product)
 
 ## [Subarray with zero sum](https://github.com/arunkalher/DSA-Repo/tree/main/Array/Subarray%20with%20zero%20sum)
 
 ## [The Stock Span Problem](https://github.com/arunkalher/DSA-Repo/tree/main/Array/The%20Stock%20Span%20Problem)
+
+## [Trapping Rainwater](https://github.com/arunkalher/DSA-Repo/tree/main/Array/Trapping%20Rain%20Water)
+
+## [Triplet Sum in Array](https://github.com/arunkalher/DSA-Repo/tree/main/Array/Triplet%20Sum%20in%20Array)
+
+## [Wave Array](https://github.com/arunkalher/DSA-Repo/tree/main/Array/Wave%20Array)
